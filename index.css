@@ -2,6 +2,8 @@
     --primary-color: #ea003d;
     --secondary-color: #f4f4f4;
     --font-size-normal: 15px;
+
+    --pointer-size: 50px;
 }
 
 /* Обнуление стилей */
@@ -89,8 +91,8 @@ ul {
     border-radius: 50%;
 
     display: inline-flex;
-    width: 50px;
-    height: 50px;
+    width: var(--pointer-size);
+    height: var(--pointer-size);
     justify-content: center;
     align-items: center;
     font-size: 30px;
